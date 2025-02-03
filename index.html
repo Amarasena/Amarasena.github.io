@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Futuristic Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo cursive">Isuru Amarasena</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="floating-island hero-island">
+                <div class="hero-content">
+                    <h1 class="cursive">Isuru Amarasena</h1>
+                    <p class="tagline">Computer Engineer</p>
+                    <a href="#about" class="cta-button">Explore More</a>
+                </div>
+                <div class="hero-image">
+                    <img src="/images/profile.jpg" alt="Your Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="floating-island about-island">
+                    <h2>About Me</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>Hello! I'm a passionate web developer with a keen eye for design. I love creating
+                                beautiful and functional websites that provide excellent user experiences.</p>
+                            <a href="documents/cv.pdf" class="download-button" download>Download Resume</a>
+                        </div>
+                        <div class="about-image">
+                            <img src="/images/profile.jpg" alt="Another Picture of You" class="about-profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="floating-island skills-island">
+                    <h2>Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Programming Languages</h3>
+                            <ul>
+                                <li><i class="fab fa-html5 html-icon"></i> HTML5</li>
+                                <li><i class="fab fa-css3-alt css-icon"></i> CSS3</li>
+                                <li><i class="fab fa-js js-icon"></i> JavaScript</li>
+                                <li><i class="fab fa-python python-icon"></i> Python</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Frameworks & Libraries</h3>
+                            <ul>
+                                <li><i class="fab fa-react react-icon"></i> React</li>
+                                <li><i class="fab fa-vuejs vuejs-icon"></i> Vue.js</li>
+                                <li><i class="fab fa-node js-node-icon"></i> Node.js</li>
+                                <li><i class="fab fa-node express-icon"></i> Express</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools & Technologies</h3>
+                            <ul>
+                                <li><i class="fab fa-git git-icon"></i> Git</li>
+                                <li><i class="fab fa-docker docker-icon"></i> Docker</li>
+                                <li><i class="fab fa-aws aws-icon"></i> AWS</li>
+                                <li><i class="fab fa-figma figma-icon"></i> Figma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-carousel">
+                    <!-- Project 1 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <img src="/images/bus_tracking_system.jpeg" alt="Project 1">
+                            <h3>Trackly</h3>
+                            <p>This is a public bus tracking system for better transportation.</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <img src="/images/financial_management_system.jpeg" alt="Project 2">
+                            <h3>Financial Management System</h3>
+                            <p>Project description goes here...</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <img src="/images/gym_management_system.jpeg" alt="Project 3">
+                            <h3>Sri Fitness</h3>
+                            <p>This is a gym application for better health</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <img src="/images/inventory_management_system.jpeg" alt="Project 4">
+                            <h3>Inventory Management System</h3>
+                            <p>Project description goes here...</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <img src="/images/module_management_system.jpeg" alt="Project 5">
+                            <h3>Module and Students Management System</h3>
+                            <p>Project description goes here...</p>
+                            <div class="project-links">
+                                <a href="#" class="button">Live Demo</a>
+                                <a href="#" class="button">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+
+
+
+        <section id="contact">
+            <div class="container">
+                <div class="floating-island contact-island">
+                    <h2>Contact Me</h2>
+                    <form id="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/isuruamarasena" target="_blank" class="social-icon">LinkedIn</a>
+                        <a href="https://github.com/Amarasena" target="_blank" class="social-icon">GitHub</a>
+                        <a href="https://x.com/IsuruAmarasena" target="_blank" class="social-icon">Twitter</a>
+                        <a href="mailto:amarasenaisuru@gmail.com" class="social-icon">Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Isuru Amarasena. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
