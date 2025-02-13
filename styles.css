@@ -261,8 +261,11 @@ header {
     color: #61dafb;
 }
 
-.vuejs-icon {
-    color: #42b883;
+.next-icon {
+    width: 30px; /* Adjust as needed */
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 .js-node-icon {
